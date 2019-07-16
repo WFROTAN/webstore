@@ -1,0 +1,22 @@
+.sidebar {
+  &__all-categories {
+    li {
+      list-style: none;
+      text-transform: uppercase;
+    }
+  }
+
+  &__all-designers {
+    margin-top: 20px;
+
+    li {
+      list-style: none;
+    }
+    
+  }
+
+  &__heading {
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+}

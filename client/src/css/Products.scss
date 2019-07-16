@@ -1,0 +1,45 @@
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+
+  figure {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    float: left;
+    width: 25%;
+    padding-bottom: 50px;
+    text-align: center;
+    box-sizing: border-box;
+
+    @media ( min-width: 0px ) and ( max-width: 480px ) {
+      width: 34%;
+      margin-left: 11%;
+    }
+
+    @media ( min-width: 480px ) and ( max-width: 762px ) {
+      width: 26%;
+      margin-left: 5%;
+    }
+
+    @media ( min-width: 762px ) and ( max-width: 900px ) {
+      width: 26%;
+      margin-left: 6%;
+    }
+    
+
+    img {
+      width: 85%;
+      margin-left: 14px;
+    }
+
+    figcaption {
+      margin-top: 10px;
+
+      .brand {
+        font-weight: bold;
+      }
+    }
+  }
+}

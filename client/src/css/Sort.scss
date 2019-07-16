@@ -1,0 +1,12 @@
+.sort {
+  text-align: right;
+
+  &__heading {
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+  li {
+    list-style: none;
+  }
+}

@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 11px;
+  line-height: 15px;
+  margin: 0 58px;
+  text-rendering: optimizeLegibility;
+
+  @media ( min-width: 0px ) and ( max-width: 600px ) {
+    margin: 0 20px;
+  }
+}
+
+a,
+a:link,
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: black;
+}

@@ -1,0 +1,28 @@
+@media ( min-width: 0px ) and ( max-width: 900px ) {
+  .main-content {
+    &__sidebar {
+      display: none !important;
+    }
+
+    &__sort {
+      display: none !important;
+    }
+
+    &__products {
+      margin: 0 0 !important;
+    }
+  }
+}
+
+.main-content {
+  margin-top: 35px;
+
+  display: flex;
+  justify-content: space-between;
+
+  &__products {
+    flex: 1;
+    margin: 0 20px;
+    flex-wrap: wrap;
+  }
+}
