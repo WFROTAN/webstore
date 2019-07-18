@@ -2,4 +2,4 @@
 An e-commerece website created with the MERN stack (MongoDB, Express, React, and Node).
 <br />
 <br />
-The site design/layout was inspired by www.ssense.ca
+The site design/layout was inspired by www.ssense.com
